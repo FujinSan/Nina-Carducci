@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = [...gallery.querySelectorAll(".gallery-item")];
 
     /*
-    ==============================
+
     Création des filtres
-    ==============================
+
     */
 
     const tags = ["Tous"];
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
     gallery.parentNode.insertBefore(tagsBar, gallery);
 
     /*
-    ==============================
+
     Création de la grille
-    ==============================
+
     */
 
     const row = document.createElement("div");
@@ -75,9 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     gallery.style.display = "block";
 
     /*
-    ==============================
+
     Filtres
-    ==============================
+
     */
 
     tagsBar.addEventListener("click", e => {
@@ -120,9 +120,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     /*
-    ==============================
+
     Lightbox
-    ==============================
+
     */
 
     let currentIndex = 0;
